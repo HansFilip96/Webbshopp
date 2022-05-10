@@ -48,7 +48,7 @@ const Deals = (props) => {
             <Paper elevation={3}>
               <iframe
                 //   lägg in länk från din egna klarna i src
-                src={`   ${cartId}`}
+                src={`https://klarna-app96.herokuapp.com/cart-checkout/${cartId}`}
                 title="Klarna"
                 width={"100%"}
                 height={"1000px"}
